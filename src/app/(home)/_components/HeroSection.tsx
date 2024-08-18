@@ -7,8 +7,9 @@ const HeroSection = (props: Props) => {
   return (
     <section className="lg:flex justify-between items-center lg:mt-10 mt-3">
       <div className="lg:w-1/2 lg:flex flex-col gap-y-10">
-        <h1 className="text-gradient bg-gradient-to-r from-gradient-start to-gradient-end lg:text-6xl font-bold lg:leading-[80px] text-3xl mb-3">
-          Let&apos;s Build Something amazing with GPT-3 <br />
+        <h1 className="text-gradient bg-gradient-to-r from-gradient-start to-gradient-end lg:text-5xl font-bold lg:leading-[70px] text-3xl mb-3">
+          Let&apos;s Build Something <br />
+          amazing with GPT-3 <br />
           OpenAI
         </h1>
         <p className="lg:text-lg text-[#81AFDD] lg:w-3/4 text-sm">
