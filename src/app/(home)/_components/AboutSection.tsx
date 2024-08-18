@@ -57,7 +57,7 @@ const AboutSection: React.FC<Props> = () => {
 
         <div className="lg:flex justify-between items-center gap-x-10">
           {infoBlocks.map((block, index) => (
-            <div key={index} className="w-[300px] mb-8">
+            <div key={index} className="lg:w-[300px] w-full mb-8">
               <hr className="hr-gradient bg-gradient-to-r from-gradient-start to-gradient-end lg:w-16 w-8 border-3 lg:mb-5 mb-2" />
               <SectionTitle title={block.title} />
               <SectionContent content={block.content} />
